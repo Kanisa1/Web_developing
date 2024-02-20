@@ -1,0 +1,149 @@
+CTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\HP\Desktop\aj\log.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+header{background-color:gold;
+color:black;
+height:400px;
+width:100%;
+padding:15px;}
+
+
+footer{background-color:gold;
+color:black;
+height:700px;
+width:100%;
+padding:15px;
+clear:both;}
+
+body{background-image: url('sh.AVIF');
+color:gold; font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;}
+
+member-profile {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+</style>
+</head>
+<body>
+<header><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+</center>
+<div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button type="submit">Search</button>
+</div>
+<div class="user-account">
+    <a href="/login">Login</a>
+    <a href="/signup">Sign Up</a>
+</div>
+<div class="cta-buttons">
+    <a href="/signup" class="button">Sign Up</a>
+    <a href="/contact" class="button">Contact Us</a>
+</div>
+<div class="contact-info">
+    <p>Call us: (092) 324-3564</p>
+    <p>Email: <a href="mailto:PixelVista.com">info@PixelVista.com</a></p>
+</div>
+<nav>
+<ul>
+<li><a href="./Landing page.html">Landing page</a></li>
+<li><a href="./Mentors.html">Mentors</a></li>
+<li><a href="./About US.html">About Us</a></li>
+<li><a href="./Apply as a Mentor.html">Apply as a Mentor</a></li>
+</ul>
+</nav>
+
+
+
+</header>
+<section>
+<div id="About">
+<h1>About Us</h1>
+<h1>Career Connect</h1>
+<div class="member-profile">
+<img src="ku.JPG" alt="member-profile" style="width:300px; height:300px;">
+<h3>Gift</h3>
+<p>Front-End Development:
+Languages: HTML5, CSS3, JavaScript (ES6+)<br>
+Frameworks/Libraries: React.js, Angular, Vue.js<br>
+Responsive Design: Flexbox, CSS Grid, Media Queries<br>
+UI/UX Design: Wireframing, Prototyping</p>
+<p>Back-End Development:
+Languages: Node.js, Python, Ruby<br>
+Frameworks: Express.js, Django, Ruby on Rails<br>
+Database Management: MongoDB, MySQL, PostgreSQL<br>
+RESTful API Development</p>
+
+<div>
+<img src="pic.JPG" alt="member-profile" style="width:300px; height:300px;">
+<h3>Donii</h3>
+<p>Soft Skills:<br>
+Problem Solving: Analyzing issues and finding effective solutions<br>
+Team Collaboration: Working collaboratively in cross-functional teams<br>
+Communication: Clearly articulating technical concepts to non-technical stakeholders</p>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<footer><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+<p>&copy; 2024 PixelVista. All Rights Reserved.</p>
+<address>
+    <p>Contact us at: <a href="mailto:info@pixelVista.com">info@PixelVista.com</a></p>
+	<ul class="social-icons">
+    <li><a href="https://www.facebook.com/yourpage" target="_blank" title="Facebook"><img src="fb.JPG"  style="width:70px; height:70px;"></a></li>
+    <li><a href="https://twitter.com/yourhandle" target="_blank" title="Twitter"><img src="tw.JPG"  style="width:70px; height:70px;""></a></li>
+    <!-- Add more social media icons as needed -->
+</ul>
+</address>
+<p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+<p><a href="/sitemap">Site Map</a></p>
+<p><a href="#top">Back to Top</a></p>
+<form action="/subscribe" method="post">
+    <label for="email">Subscribe to our newsletter:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Subscribe</button>
+</form>
+
+
+
+
+</center></footer>
+</body>
+</html>
