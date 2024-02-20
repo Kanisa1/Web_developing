@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Landing Page</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\HP\Desktop\aj\log.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{background-color:black;
+color:gold}
+header{background-color:gold;
+color:black;
+height:400px;
+width:100%;
+padding:15px;}
+  
+div {
+  width: 70%;
+  display: inline-block;
+  float:leftwards;
+}
+
+footer{background-color:gold;
+color:black;
+height:700px;
+width:100%;
+padding:15px;
+clear:both;}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+</style>
+</head>
+<body>
+<header><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+</center>
+<div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button type="submit">Search</button>
+</div>
+<div class="user-account">
+    <a href="/login">Login</a>
+    <a href="/signup">Sign Up</a>
+</div>
+<div class="cta-buttons">
+    <a href="/signup" class="button">Sign Up</a>
+    <a href="/contact" class="button">Contact Us</a>
+</div>
+<div class="contact-info">
+    <p>Call us: (092) 324-3564</p>
+    <p>Email: <a href="mailto:PixelVista.com">info@PixelVista.com</a></p>
+</div>
+<nav>
+<ul>
+<li><a href="./Landing page.html">Landing page</a></li>
+<li><a href="./Mentors.html">Mentors</a></li>
+<li><a href="./About Us.html">About Us</a></li>
+<li><a href="./Apply as a Mentor.html">Apply as a Mentor</a></li>
+</ul>
+</nav>
+
+
+</header>
+
+
+<div>
+<center><div style="background-image: url('on.JPG'); background-repeat:no-repeat; background-size:700px; width:400px; height:400px; padding:15px; opacity:100% color:black;">
+<strong><h1>Aims</h1>
+<p> My primary aim is to build web solutions that address<br> specific needs or problems. Whether it’s an e-commerce platform,<br> a blog, or a corporate site, I strive to create valuable digital experiences.
+</p>
+<p> I also aim to stay updated with the latest web technologies, languages,<br> and frameworks. This ensures that I can deliver efficient,<br> secure, and responsive websites.</p>
+</strong></center></div>
+
+<div style="background-image: url('sh.AVIF'); background-size:800px; width:500px; height:500px;">
+<strong><h1>Objectives</h1>
+<p>1. My objective is to create interfaces that prioritize user experience.<br> Intuitive navigation, clear content, and accessibility are key aspects.</p>
+<p> 2. I work towards making sure websites function<br> seamlessly across different browsers and devices.</p>
+<p>3. Understanding Requirements: Thoroughly comprehend the project<br> requirements by collaborating with stakeholders, including clients, designers, <br>and other team members. This involves identifying the purpose, target audience,<br> and functionality of the web application.</p>
+</strong><p>4. Programming Languages and Frameworks: Utilize programming <br>languages such as HTML, CSS, and JavaScript for front-end development, <br>and languages like Python, Ruby, Java, or Node.js for back-end development.<br> Employing frameworks like React, Angular, Vue.js (for front-end) or Django, Flask, <br>Ruby on Rails, Express.js (for back-end) can enhance development efficiency.</p>
+</div>
+<center><div style="background-color:white; background-size:70%; width:400px; height:300px;">
+<h1>Mission</h1>
+<p> My mission is to empower businesses and individuals <br>by providing them with a strong online presence. A well-designed <br>website can enhance brand visibility and drive growth.</p>
+
+</div><center>
+</div>
+
+<footer><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+<p>&copy; 2024 PixelVista. All Rights Reserved.</p>
+<address>
+    <p>Contact us at: <a href="mailto:info@pixelVista.com">info@PixelVista.com</a></p>
+	<ul class="social-icons">
+    <li><a href="https://www.facebook.com/yourpage" target="_blank" title="Facebook"><img src="fb.JPG" style="width:70px; height:70px;"></a></li>
+    <li><a href="https://twitter.com/yourhandle" target="_blank" title="Twitter"><img src="tw.JPG"  style="width:70px; height:70px;"></a></li>
+    <!-- Add more social media icons as needed -->
+</ul>
+</address>
+<p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+<p><a href="/sitemap">Site Map</a></p>
+<p><a href="#top">Back to Top</a></p>
+<form action="/subscribe" method="post">
+    <label for="email">Subscribe to our newsletter:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Subscribe</button>
+</form>
+
+
+
+
+</center></footer>
+</body>
+</html>
