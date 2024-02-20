@@ -1,0 +1,165 @@
+CTYPE html>
+<html>
+<head>
+<title>Mentors</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\HP\Desktop\aj\log.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+header{background-color:gold;
+color:black;
+height:400px;
+width:100%;
+padding:15px;}
+
+
+footer{background-color:gold;
+color:black;
+height:700px;
+width:100%;
+padding:15px;
+clear:both;}
+
+
+section {
+    padding: 20px;
+}
+
+mentor-category {
+    margin-bottom: 30px;
+}
+
+mentor-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+</style>
+</head>
+<body>
+<header><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+</center>
+<div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button type="submit">Search</button>
+</div>
+<div class="user-account">
+    <a href="/login">Login</a>
+    <a href="/signup">Sign Up</a>
+</div>
+<div class="cta-buttons">
+    <a href="/signup" class="button">Sign Up</a>
+    <a href="/contact" class="button">Contact Us</a>
+</div>
+<div class="contact-info">
+    <p>Call us: (092) 324-3564</p>
+    <p>Email: <a href="mailto:PixelVista.com">info@PixelVista.com</a></p>
+</div>
+ <nav>
+<ul>
+<li><a href="./Landing page.html">Landing Page</a></li>
+<li><a href="./Mentors.html">Mentors</a></li>
+<li><a href="./About Us.html">About Us</a></li>
+<li><a href="./Apply as a Mentor.html">Apply as a Mentor</a></li>
+</ul>
+</nav>
+
+
+</header>
+
+<section id="Mentors">
+<center><h1>Meet our Mentors</h1></center>
+<div class="Mentors">
+<center><h2>Career Advice</h2>
+</center><p>Continuous Learning: Emphasize the importance of staying updated <br>with the latest technologies and trends in web development. Encourage the <br>mentee to explore new programming languages, frameworks,<br> and tools to broaden their skill set.</p>
+
+<div class="mentor-card">
+<img src="pic.JPG" alt="mentor1" style="width:400px; height:500px;">
+<p>Mrs.Donii</p>
+<p>Founder&CEO of PixelVista</p>
+<p>Mrs. Donii  is an extremely influential person in the software and <br>operations engineering community. Her blog and<br> Twitter account are super-popular, but the one thing you should know <br>about Evans is that she has an always-learning mindset.<br> While this post isn't saying that you need 10 years before you can become a programmer,<br> it is saying that you should always feel as if you're "becoming" a<br> programmer—even after you've gotten your first job. And while the years<br> when she could devote more time to programming were the most beneficial, the<br> years of less frequent hobby work in grade school and college helped build an important foundation.<br> The bulk of this goes over the most interesting programming milestones in her life.</p
+
+</div>
+
+<div class="mentor-category">
+            <h3>Resume Review</h3>
+<p>Optimized existing web applications for mobile responsiveness,<br> ensuring a seamless user experience across various devices.
+</p>
+</div>
+<center><div class="mentor-card">
+ <img src="ku.jpg" alt="circular-image" style="width:300px; height:300px;">
+<h4>Mrs.Gift</h4>
+<p>Gift is a front-end and back-end developer</p
+<p>Front-End Development:
+
+Designed and developed responsive and user-friendly<br> web interfaces using HTML, CSS, and JavaScript.
+Implemented modern front-end frameworks such as<br> React.js to enhance user interactivity and experience.</p>
+<p>Back-End Development:
+
+Developed server-side logic and database<br> structures using Node.js and MongoDB.
+Created RESTful APIs to facilitate data exchange <br>between the front-end and back-end systems.</p>
+ </div></center>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<footer><h1><u>The PixelVista</u></h1>
+<center><img src="log.PNG" style="width:200px; height:120px">
+<p>&copy; 2024 PixelVista. All Rights Reserved.</p>
+<address>
+    <p>Contact us at: <a href="mailto:info@pixelVista.com">info@PixelVista.com</a></p>
+	<ul class="social-icons">
+    <li><a href="https://www.facebook.com/yourpage" target="_blank" title="Facebook"><img src="fb.JPG"  style="width:70px; height:70px;"></a></li>
+    <li><a href="https://twitter.com/yourhandle" target="_blank" title="Twitter"><img src="tw.JPG" style="width:70px; height:70px;""></a></li>
+    <!-- Add more social media icons as needed -->
+</ul>
+</address>
+<p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+<p><a href="/sitemap">Site Map</a></p>
+<p><a href="#top">Back to Top</a></p>
+<form action="/subscribe" method="post">
+    <label for="email">Subscribe to our newsletter:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Subscribe</button>
+</form>
+
+
+
+
+</center></footer>
+</body>
+
+
+</html>
